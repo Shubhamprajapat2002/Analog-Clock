@@ -1,0 +1,37 @@
+ #clockContainer{  
+    position: relative;
+    margin: auto;
+    height: 32vw;
+    width: 45vw; 
+    background: url(./stock-photo-dial-without-arrows-isolated-on-white-background-blank-for-design-1229884642-transformed.jpeg) no-repeat;
+    background-size: 100%;
+} 
+
+#hour, #minute, #second{
+    position: absolute;
+    background: rgb(4, 25, 53);
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.6%;
+    height: 18%;
+    top: 32%;
+    left: 48.85%;
+    opacity: 0.8;  
+}
+#minute{
+    width: 1.4%;
+    height: 26%;
+    top: 24%;
+    left: 48.9%;
+    opacity: 0.8;  
+}
+#second{
+    width: .8%;
+    height: 30%;
+    top: 20%;
+    left: 49.25%;
+    opacity: 0.8; 
+    
+}
